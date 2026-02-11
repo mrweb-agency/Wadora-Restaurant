@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "name": "Doner Kebab",
+      "items": [
+        {
+          "name": "Classic Doner",
+          "price": "350",
+          "image": "images/Doner.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "name": "Ayran",
+          "price": "20",
+          "image": "images/Ayran.png"
+        }
+      ]
+    }
+  ]
+}
