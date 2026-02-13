@@ -11,7 +11,6 @@ body {
   object-fit: cover;  /* fills top area, no black bars */
 }
 
-}
 .section {
   opacity: 0;
   transform: translateY(40px);
@@ -100,3 +99,4 @@ body {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
+
