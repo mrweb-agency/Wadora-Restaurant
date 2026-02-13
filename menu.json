@@ -1,24 +1,88 @@
 {
   "categories": [
     {
-      "name": "Doner Kebab",
-      "items": [
-        {
-          "name": "Classic Doner",
-          "price": "350",
-          "image": "images/Doner.jpg"
-        }
-      ]
+  "name": "Dürüm Çeşitleri",
+  "items": [
+    {
+      "name": "Tavuk Döner Dürüm",
+      "price": "340",
+      "image": "images/durum/tavuk-doner.jpg"
     },
     {
-      "name": "Drinks",
-      "items": [
-        {
-          "name": "Ayran",
-          "price": "20",
-          "image": "images/Ayran.png"
-        }
-      ]
+      "name": "Adana Dürüm",
+      "price": "360",
+      "image": "images/durum/adana.jpg"
+    },
+    {
+      "name": "Tavuk Şiş Dürüm",
+      "price": "340",
+      "image": "images/durum/tavuk-sis.jpg"
+    },
+    {
+      "name": "Et Şiş Dürüm",
+      "price": "440",
+      "image": "images/durum/et-sis.jpg"
+    },
+    {
+      "name": "Ciğer Dürüm",
+      "price": "340",
+      "image": "images/durum/ciger.jpg"
+    },
+    {
+      "name": "Köfte Dürüm",
+      "price": "360",
+      "image": "images/durum/kofte.jpg"
+    },
+    {
+      "name": "Şeftali Dürüm",
+      "price": "440",
+      "image": "images/durum/seftali.jpg"
     }
+  ]
+  
+},
+{
+  "name": "Double Dürüm Çeşitleri",
+  "items": [
+    {
+      "name": "Adana Double Dürüm",
+      "price": "530",
+      "image": "images/double/adana-double.jpg"
+    },
+    {
+      "name": "Tavuk Şiş Double Dürüm",
+      "price": "500",
+      "image": "images/double/tavuk-sis-double.jpg"
+    },
+    {
+      "name": "Köfte Double Dürüm",
+      "price": "530",
+      "image": "images/double/kofte-double.jpg"
+    },
+    {
+      "name": "Tavuk Döner Double Dürüm",
+      "price": "500",
+      "image": "images/double/tavuk-doner-double.jpg"
+    },
+    {
+      "name": "Ciğer Double Dürüm",
+      "price": "500",
+      "image": "images/double/ciger-double.jpg"
+    },
+    {
+      "name": "Et Şiş Double Dürüm",
+      "price": "640",
+      "image": "images/double/et-sis-double.jpg"
+    },
+    {
+      "name": "Şeftali Double Dürüm",
+      "price": "640",
+      "image": "images/double/seftali-double.jpg"
+    }
+  ]
+}
+
+
+
   ]
 }
