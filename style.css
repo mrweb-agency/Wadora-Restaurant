@@ -7,9 +7,10 @@ body {
 }
 .item img {
   width: 100%;
-  height: 180px; /* fixed card height */
-  object-fit: cover; /* fill the card */
-  border-radius: 12px;
+  height: 60%;  /* take 60% of the card height */
+  object-fit: cover;  /* fills top area, no black bars */
+}
+
 }
 .section {
   opacity: 0;
@@ -68,24 +69,29 @@ body {
 .item {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 16px;
-  padding: 20px;
+  padding: 0; /* remove extra padding for square layout */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  aspect-ratio: 1 / 1; /* this makes the card a perfect square */
   text-align: center;
-  backdrop-filter: blur(6px);
 }
 
+
 .item-name {
-  font-size: 16px;
+  margin: 8px 0 4px;
   font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 16px;
 }
 .section {
   margin-bottom: 60px;
 }
 
 .price {
-  font-size: 18px;
   font-weight: 600;
   color: #d4af37;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 /* Mobile */
@@ -94,4 +100,3 @@ body {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
-
