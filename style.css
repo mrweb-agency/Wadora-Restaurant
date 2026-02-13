@@ -11,6 +11,16 @@ body {
   object-fit: cover; /* fill the card */
   border-radius: 12px;
 }
+.section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 
@@ -84,3 +94,4 @@ body {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
+
