@@ -1,0 +1,229 @@
+{
+  "categories": [
+    {
+      "id": "durum",
+      "name": "Dürüm Çeşitleri",
+      "items": [
+        {
+          "name": "Tavuk Döner Dürüm",
+          "price": "340",
+          "image": "images/durum/tavuk-doner.webp"
+        },
+        {
+          "name": "Adana Dürüm",
+          "price": "360",
+          "image": "images/durum/adana.webp"
+        },
+        {
+          "name": "Tavuk Şiş Dürüm",
+          "price": "340",
+          "image": "images/durum/tavuk-sis.webp"
+        },
+        {
+          "name": "Et Şiş Dürüm",
+          "price": "440",
+          "image": "images/durum/et-sis.webp"
+        },
+        {
+          "name": "Ciğer Dürüm",
+          "price": "340",
+          "image": "images/durum/ciger.webp"
+        },
+        {
+          "name": "Köfte Dürüm",
+          "price": "360",
+          "image": "images/durum/kofte.webp"
+        },
+        {
+          "name": "Şeftali Dürüm",
+          "price": "440",
+          "image": "images/durum/seftali.webp"
+        }
+      ]
+    },
+    {
+      "id": "double",
+      "name": "Double Dürüm Çeşitleri",
+      "items": [
+        {
+          "name": "Adana Double Dürüm",
+          "price": "530",
+          "image": "images/double/adana-double.webp"
+        },
+        {
+          "name": "Tavuk Şiş Double Dürüm",
+          "price": "500",
+          "image": "images/double/tavuk-sis-double.webp"
+        },
+        {
+          "name": "Köfte Double Dürüm",
+          "price": "530",
+          "image": "images/double/kofte-double.webp"
+        },
+        {
+          "name": "Tavuk Döner Double Dürüm",
+          "price": "500",
+          "image": "images/double/tavuk-doner-double.webp"
+        },
+        {
+          "name": "Ciğer Double Dürüm",
+          "price": "500",
+          "image": "images/double/ciger-double.webp"
+        },
+        {
+          "name": "Et Şiş Double Dürüm",
+          "price": "640",
+          "image": "images/double/et-sis-double.webp"
+        },
+        {
+          "name": "Şeftali Double Dürüm",
+          "price": "640",
+          "image": "images/double/seftali-double.webp"
+        }
+      ]
+    },
+{
+  "id": "karisik",
+  "name": "Karışık Dürüm Çeşitleri",
+  "items": [
+    {
+      "name": "Tavuk Döner + Adana Dürüm",
+      "price": "520",
+      "image": "images/karisik/tavuk-doner-adana.webp"
+    },
+    {
+      "name": "Tavuk Döner + Et Şiş Dürüm",
+      "price": "600",
+      "image": "images/karisik/tavuk-doner-et-sis.webp"
+    },
+    {
+      "name": "Tavuk Döner + Köfte Dürüm",
+      "price": "520",
+      "image": "images/karisik/tavuk-doner-kofte.webp"
+    },
+    {
+      "name": "Adana + Tavuk Şiş Dürüm",
+      "price": "520",
+      "image": "images/karisik/adana-tavuk-sis.webp"
+    },
+    {
+      "name": "Adana + Ciğer Dürüm",
+      "price": "520",
+      "image": "images/karisik/adana-ciger.webp"
+    },
+    {
+      "name": "Adana + Et Şiş Dürüm",
+      "price": "610",
+      "image": "images/karisik/adana-et-sis.webp"
+    },
+    {
+      "name": "Adana + Şeftali Dürüm",
+      "price": "610",
+      "image": "images/karisik/adana-seftali.webp"
+    },
+    {
+      "name": "Tavuk Şiş + Et Şiş Dürüm",
+      "price": "600",
+      "image": "images/karisik/tavuk-sis-et-sis.webp"
+    },
+    {
+      "name": "Tavuk Şiş + Ciğer Dürüm",
+      "price": "500",
+      "image": "images/karisik/tavuk-sis-ciger.webp"
+    },
+    {
+      "name": "Et Şiş + Ciğer Dürüm",
+      "price": "600",
+      "image": "images/karisik/et-sis-ciger.webp"
+    },
+    {
+      "name": "Et Şiş + Şeftali Dürüm",
+      "price": "640",
+      "image": "images/karisik/et-sis-seftali.webp"
+    }
+  ]
+},
+{
+  "id": "kampanyalar",
+  "name": "Karışık servis",
+  "items": [
+    {
+      "name": "Adana Servis",
+      "price": "710",
+      "image": "images/karisik-servis/adana-servis.webp"
+    },
+    {
+      "name": "Adana tavuk Şiş",
+      "price": "690",
+      "image": "images/karisik-servis/adana-tavuk-sis.webp"
+    },
+    {
+      "name": "Adana ve Et Şiş",
+      "price": "730",
+      "image": "images/karisik-servis/adana-ve-etsis.webp"
+    },
+    {
+      "name": "Tavuk döneri",
+      "price": "650",
+      "image": "images/karisik-servis/tavuk-doneri.webp"
+    },
+    {
+      "name": "Tavuk Şiş",
+      "price": "650",
+      "image": "images/karisik-servis/tavuk-sis.webp"
+    },
+    {
+      "name": "Tavuk Şiş ve Et Şiş",
+      "price": "730",
+      "image": "images/karisik-servis/tavuk-ve-etsis.webp"
+    },
+    {
+      "name": "Et Şiş Servis",
+      "price": "850",
+      "image": "images/karisik-servis/etsis-servis.webp"
+    },
+    {
+      "name": "Kanat Servis",
+      "price": "650",
+      "image": "images/karisik-servis/kanat-servis.webp"
+    },
+    {
+      "name": "Köfte Servis",
+      "price": "710",
+      "image": "images/karisik-servis/kofte-servis.webp"
+    },
+    {
+      "name": "Ciğer Servis",
+      "price": "650",
+      "image": "images/karisik-servis/ciger-servis.webp"
+    },
+    {
+      "name": "Karışık Servis",
+      "price": "900",
+      "image": "images/karisik-servis/karisik-servis.webp"
+    },
+    {
+      "name": "Kanat ve Adana",
+      "price": "900",
+      "image": "images/karisik-servis/kanat-ve-adana.webp"
+    },
+    {
+      "name": "Şeftali Servis",
+      "price": "850",
+      "image": "images/karisik-servis/seftali-servis.webp"
+    },
+    {
+      "name": "Adana + Et Şiş Ciğer",
+      "price": "900",
+      "image": "images/karisik-servis/adana-etsis-ciger.webp"
+    },
+    {
+      "name": "Full Karışık Servis",
+      "price": "1800",
+      "image": "images/karisik-servis/full-karisik-servis.webp"
+    }
+  ]
+}
+
+  ]
+}
