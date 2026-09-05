@@ -8,7 +8,6 @@
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Wadora Restaurant Menü" />
   <meta property="og:description" content="Dürüm, double dürüm, karışık dürüm ve karışık servis çeşitleri." />
   <meta property="og:image" content="images/banner.webp" />
@@ -18,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Poppins:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet"
   />
 </head>
@@ -26,10 +25,10 @@
 
   <a class="skip-link" href="#menu">Menüye geç</a>
 
-  <!-- Banner -->
+  <!-- Banner: the sign photo already carries the name/branding, so we don't repeat it visually -->
   <header class="banner">
+    <h1 class="sr-only">Wadora Restaurant</h1>
     <div class="banner-overlay">
-      <h1>Wadora Restaurant</h1>
       <p>Izgara üzerine, günlük taze hazırlanan dürüm ve şiş çeşitleri</p>
     </div>
   </header>
@@ -67,6 +66,18 @@
       <div class="item-modal-price" id="modal-price"></div>
     </div>
   </div>
+
+  <!-- Floating actions -->
+  <a class="fab fab-call" href="tel:+905338551444" aria-label="Sipariş için ara">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1l-2.5 2.9z"/>
+    </svg>
+  </a>
+  <button class="fab fab-top" id="scroll-top" aria-label="Başa dön" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
 
   <footer class="footer">
     <div class="footer-image">
